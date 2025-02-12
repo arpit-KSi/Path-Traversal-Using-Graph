@@ -40,16 +40,19 @@ g++ Main.cpp Route.cpp Location.cpp -o planner
 📍 **cities.csv**
 
 ```
-USA, New York, 40.7128, -74.0060
-USA, Los Angeles, 34.0522, -118.2437
+Afghanistan	Kabul	34.4667	69.1833
+Albania	Tirane	41.3	19.8167
+Algeria	Algiers	36.7	3.13333
+American Samoa	Pago Pago	-14.2667	-170.717
 ...
 ```
 
 📍 **routes.csv**
 
 ```
-New York, Los Angeles, plane, 6, 300, direct flight
-New York, Chicago, train, 5, 100, layover
+Abu Dhabi,Canberra (Use Sydney),plane,24,1339,"Qatar Airways, Thai Airways, Jetstar Airways, 2 stops, Momondo.com"
+Abu Dhabi,Lima,plane,30,1967,"KLM Airways, 1 stop, Momondo.com"
+Abu Dhabi,London,plane,10,666,"Turkish Airlines, 1 stop, Momondo.com"
 ...
 ```
 
