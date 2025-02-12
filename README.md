@@ -26,20 +26,18 @@ A C++-based travel planner that finds the **fastest or cheapest** route between 
 ### **1️⃣ Compile the Code**
 
 ```bash
-g++ Main.cpp Route.cpp Location.cpp GraphFunctions.cpp FileOperations.cpp outputGenerator.cpp -o planner
+g++ Main.cpp Route.cpp Location.cpp -o planner
 ```
 
 ### **2️⃣ Run the Program**
 
 ```bash
-./planner cities.txt routes.txt output.html "New York" "Los Angeles" fastest
+./planner
 ```
-
-OR use interactive mode and enter filenames manually.
 
 ## 📌 Example Input Files
 
-📍 **cities.txt**
+📍 **cities.csv**
 
 ```
 USA, New York, 40.7128, -74.0060
@@ -47,7 +45,7 @@ USA, Los Angeles, 34.0522, -118.2437
 ...
 ```
 
-📍 **routes.txt**
+📍 **routes.csv**
 
 ```
 New York, Los Angeles, plane, 6, 300, direct flight
@@ -57,7 +55,7 @@ New York, Chicago, train, 5, 100, layover
 
 ## 🖥️ Output
 
-Generates an **HTML travel plan**, listing the recommended route with distances, travel time, and costs.
+Provide an **ouput.html**, file and you will get all the listing the with your desired conditions.
 
 ## 📜 License
 
